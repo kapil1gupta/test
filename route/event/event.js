@@ -36,5 +36,5 @@ app.post('/registerToEvent',function(req,res){
   }
   registerEvent.registerEvent(req,callback);
 });
-
+// To insert the details of the customer
 module.exports = app;
