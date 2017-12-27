@@ -5,6 +5,9 @@ var viewEvent = require('./viewEvent.js');
 var viewEventDetails = require('./viewEventDetails.js');
 var registerEvent = require('./registerEvent.js');
 // To insert the details of the customer
+
+// To insert the details of the customer
+// To insert the details of the customer
 app.post('/addEvent',function(req,res){
   var callback = function(err,output){
     res.statusCode = output.http_code;
